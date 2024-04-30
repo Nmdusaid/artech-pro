@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Creative design solution's</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:wght@700;800&family=Roboto:ital,wght@0,100;1,100;1,400&family=Sixtyfour&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-BVf5t6l7NqRfOX+5wEZEJokXSLSTctcmJa9n3W+6zN+W7rV6+EJXmW/eVUHtMQI0ZGxbo1wlC0QVTrIvWc1BCg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.abt{
+ 
+    background-image: url(/artpics/pexels-pixabay-262367.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+}
+.nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav ul .logo h4 {
+    margin: 0;
+    font-size: 15px;
+}
+
+.nav ul .logo h5 {
+    margin: 0;
+    font-size: 10px;
+}
+
+.nav ul li {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.nav ul li:hover {
+    color: #ffd700; /* Change color on hover */
+}
+
+.nav ul li:last-child {
+    margin-right: 0;
+}
+
+.nav ul li i {
+    font-size: 20px;
+}
+
+.h5 h3{
+    display:flex ;
+    flex-direction: column;
+}
+.abt h3{
+
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  height: 90vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+  
+ }.container {
+    margin-top: 20px; /* Adjust as needed */
+    height: 90vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.container .imgs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.container .imgs img:hover{
+    scale:110%;
+}
+.container .imgs img {
+
+    height: 48vh;
+    width: calc(33.33% - 20px); /* Adjust as needed */
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 10px; /* Add margin between images */
+}
+
+/* To remove margin from the last image */
+.container .imgs img:last-child {
+    margin-right: 0;
+}
+
+
+.container .tags {
+    width: 70%; /* Adjust as needed */
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center; /* Center text horizontally */
+}
+.container .tags h3 {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 100;
+}
+
+.container .tags p {
+    font-size: 15px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    color: rgb(0, 0, 0);
+}
+
+
+.container .tags{
+    gap: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 70vh;
+    align-items: center;  
+   justify-content: center;
+}
+.tags button {
+    position: relative;
+    right: 3%;
+    height: 8vh;
+    width: 12%;
+    cursor: pointer;
+    /* background: #000; */
+    color: black;
+    border: none;
+    border-radius:5px;
+    transition: background-color 0.3s ease; /* Smooth transition for the background color */
+    font-family: "Ubuntu", sans-serif;
+     
+}
+
+.tags button:hover {
+    background: #090909;
+    color: rgb(255, 255, 255);
+}
+.buildings{
+    background-color:rgb(255, 255, 255) ;
+     gap: 20px; 
+    display: flex;
+    align-items: center;
+     justify-content: center;
+    height: 70vh;
+    width: 100%;
+}
+.buildings img{
+    gap: 10px;
+    height: 50vh;
+       width:55%;
+       display: flex;
+       justify-content: center;
+       
+}
+.buildings h3{
+
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    width: 50%;
+    color: #000000;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;   
+}
+.buildings .explore-button {
+    position: relative;
+    top:30% !important;
+    right:38%;
+    height: 5.7vh !important;
+    width: 10%;
+    cursor: pointer;
+    /* background: #090909; */
+    /* color: rgb(255, 255, 255); */
+    border: none;
+    border-radius: 5%;
+    transition: background-color 0.3s ease;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;   
+}
+
+.explore-button:hover {
+    background: #090909;
+    color: rgb(255, 255, 255);
+ 
+} 
+.bts  .btn {
+    cursor: pointer;
+    width: 30%;
+    height: 25px; 
+    background-color: transparent black; /* Set initial background color to transparent */
+    border: 1px solid #fff5f5; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.bts .btn:hover {
+    background: #090909;
+    color: rgb(255, 255, 255);
+}
+
+.des {
+    background-color:rgb(0, 0, 0) ;
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    /* background-image: url('/artpics/depositphotos_24543787-stock-photo-hotel.jpg'); */
+  background-color:rgb(255, 255, 255) ;
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    padding: 0 20px; /* Add some padding to adjust the layout */
+}
+
+
+
+.des img {
+         
+    border-radius: 4%;
+    height: 60vh;
+    width: 50%;
+    z-index: 1; /* Ensure the image is above the pseudo-element */
+}
+
+.bts {
+    width: 50%;
+    height: 50vh;
+    /* background: aqua; */
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bts p {
+    width: 90%;
+    color: #0e0d0d;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+}
+
+.center-heading {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: normal;   
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.int {
+    text-align: center;
+}
+.int h3{
+    gap: 8%;
+    font-size: larger;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;   
+}
+.container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container-lg {
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.row {
+    margin-bottom: 20px; /* Add some space between rows */
+}
+
+.img-container {
+    width: 100%; /* Each column takes up the full width */
+    text-align: center; /* Center-align the content */
+}
+
+.img-container img {
+border: 2px solid black;
+   
+    cursor:crosshair;
+    height: 50vh;
+    display: inline-block; /* Display images as inline-block to center */
+    max-width: 100%; /* Ensure images don't exceed container width */
+}
+
+.img-container img:hover{
+    scale: 110%;
+}
+.content {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: left; /* Align content to the left */
+}
+
+.content h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.content p {
+    display: flex;
+    justify-content: center; /* Center the paragraph horizontally */
+    width: 100%; /* Set the width to 100% to ensure full width */
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+
+    .parallax {
+        background-image: url('/artpics/depositphotos_24543787-stock-photo-hotel.jpg');
+        height: 400px; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    } 
+    .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 30vh;
+}
+
+.social-media {
+
+    margin-top: 10px; 
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+    transform: translateY(-5px);
+}
+
+.footer-text {
+    margin-top: 10px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+    font-size: 14px;
+}
+/* Default styles for all devices */
+/* You can keep your existing styles here */
+
+/* Media queries for specific screen sizes */
+
+/* Small devices (phones, 576px and up) */
+
+/* @media (min-width:1030px){
+    .buildings .explore-button {
+        position: relative;
+        top: 38% !important;
+        right: 35%;
+        height: 60px;
+        width: 120px;
+    }
+} */
+@media (min-width: 576px) {
+    /* Adjustments for small devices */
+    .abt h3 {
+        font-size: 24px;
+    }
+    .container {
+        height: auto;
+        padding-top: 50px;
+    }
+    .container .imgs img {
+        height: 200px;
+        width: 200px;
+        margin-right: 5px;
+    }
+    .container .tags {
+        width: 90%;
+    }
+    .buildings img {
+        height: 200px;
+        width: 300px;
+    }
+    .buildings h3 {
+        font-size: 18px;
+    }
+    .buildings .explore-button {
+        position: relative;
+        top:20%;
+        right:25%;
+        height: 40px;
+        width: 80px;
+    }
+    .des img {
+        height: 200px;
+        width: 300px;
+    }
+    .bts p {
+        font-size: 14px;
+    }
+}
+@media(max-width:400px)
+{
+    .nav {
+    background-color: #333;
+    color: #fff;
+    padding: 0px 20px;
+    font-size: 15px;
+}
+.nav ul .logo h4 {
+    margin: 0;
+    font-size: 6px;
+}
+.nav ul .logo h5 {
+    margin: 0;
+    font-size: 7px;
+}
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    font-size: 12px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tags button {
+    position: relative;
+    right: 3%;
+    height: 4vh;
+    width: 24%;
+    cursor: pointer;
+    /* background: #000; */
+    color: black;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.container .imgs {
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}.buildings img {
+    gap: 10px;
+    height: 50vh;
+    width: 55%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+.buildings .explore-button {
+    position: relative;
+    top: 32%;
+    right: 31%;
+    height: 5vh;
+    width: 12%;
+    cursor: pointer;
+    /* background: #090909; */
+    /* color: rgb(255, 255, 255); */
+    border: none;
+    border-radius: 5%;
+    transition: background-color 0.3s ease;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.des img {
+    border-radius: 4%;
+    height: 37vh;
+    width: 50%;
+    z-index: 1;
+}
+.des {
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-image: url(/artpics/depositphotos_24543787-stock-photo-hotel.jpg); */
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+    padding: 0 20px;
+}
+.bts .btn {
+        cursor: pointer;
+        width: 67%;
+        height: 39px;
+        background-color: transparent black;
+        border: 1px solid #fff5f5;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+.nav {
+        background-color: #333;
+        color: #fff;
+        padding: 0px 0px;
+        font-size: 15px;
+    }
+}
+@media (min-width: 768px) {
+    /* Adjustments for medium devices */
+    .abt h3 {
+        font-size: 32px;
+    }
+    .container {
+        padding-top: 100px;
+    }
+    .container .imgs img {
+        height: 250px;
+        width: 250px;
+    }
+    .container .tags {
+        width: 80%;
+    }
+    .buildings img {
+        height: 300px;
+        width: 450px;
+    }
+    .buildings h3 {
+        font-size: 24px;
+    }
+    .buildings .explore-button {
+        position: relative;
+        top:20%;
+        right:30%;
+        height: 50px;
+        width: 100px;
+    }
+    .des img {
+        height: 300px;
+        width: 450px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+    /* Adjustments for large devices */
+    .abt h3 {
+        font-size: 40px;
+    }
+    .container {
+        padding-top: 150px;
+    }
+    .container .imgs img {
+        height: 300px;
+        width: 300px;
+    }
+    .container .tags {
+        width: 70%;
+    }
+    .buildings img {
+        height: 400px;
+        width: 600px;
+    }
+    .buildings h3 {
+        font-size: 28px;
+    }
+    .buildings .explore-button {
+        position: relative;
+        top:35%;
+        right:25%;
+        height: 50px;
+        width: 120px;
+    }
+    .des img {
+        height: 400px;
+        width: 600px;
+    }
+}
+
+</style>
+</head>
+<body>
+  
+    <header>
+        <div class="nav">
+            <ul>
+                <div class="logo">
+                    <h4>Creative designs & Solutions</h4>
+                    <h5>Arthitech, Inc <i class="fa-solid fa-house"></i></h5>
+                </div>
+                <li>Home</li>
+                <li>Our teams</li>
+                <li>Services</li>
+                <li>Contact Us</li>
+                <li><i class="fas fa-search"></i></li>
+            </ul>
+        </div>
+        
+    </header>
+
+    <div class="abt">
+        <h3>We design with the future in mind.</h3>
+</div>
+<div class="container">
+    <div class="imgs">
+        <img src="/artpics/grps.webp" alt="">
+        <img src="/artpics/Women-Civil-2-1024x669.jpeg" alt="">
+        <img src="/artpics/adults-analysis-brainstorming-collaboration.jpg" alt="">
+    </div>
+    <div class="tags">
+        <h3>It's not a moment, it's a mindset of our designers and engineers!</h3>
+        <p>Each and every day, we honor and celebrate the courageous in our industry beyond.</p> 
+        <button>About</button>
+    </div>
+</div>
+
+
+  
+</div>
+</div>
+<div class="buildings">
+    <img src="/artpics/ghaziabad-uttar-pradesh-homes-photos-1366x768.webp" alt="">
+    <h3>This Gahziabaad home finds a new daring designs.with the creative designs & solutions </h3>
+    <button class="explore-button">Explore</button>
+
+    
+</div>
+<div class="parallax"></div>
+<h2 class="center-heading">Here some of our designs & interior</h2>
+<div class="des">
+   
+
+    <div class="bts">
+        <p>Luxury hotels are designed to be a haven for the senses and an oasis of luxury.</p>
+        <button class="btn">Explore Restaurant</button>         
+    </div>
+    <img src="/artpics/intreriors.jpg" alt="">
+</div>
+<div class="des">
+    <img src="/artpics/image1-53.webp" alt="">
+    <div class="bts">
+        <p>The room's design helps guests to feel comfortable and relaxed, and the amenities bring in a level of pampering that most people just can't get at home: .</p>
+        <button class="btn">Explore Room</button>  
+  
+    </div>
+   
+
+</div>
+ <div class="int">
+    <h3>The designs & Plans By our interior's </h3> 
+    <div class="container-center">
+        <div class="container-lg">
+            <div class="row">
+                <div class="img-container">
+                    <img src="/artpics/plans1.jpg" alt="Image 1">
+                    <div class="content">
+                        <h2>Title 1</h2>
+                        <p> A well-designed interior should be visually pleasing and evoke positive emotions in its occupants. This involves thoughtful selection of colors, materials, textures, and decorative elements to create a cohesive and harmonious environment. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="img-container">
+                    <img src="/artpics/architectural-project-sketch-generative-ai-modern-building-sketch_154797-209.avif" alt="Image 2">
+                    <div class="content">
+                        <h2>Title 2</h2>
+                        <p> planning that focuses on arranging furniture within a space to maximize comfort, functionality, and visual appeal. Interior designers consider factors such as the size and shape of the room, the placement of doors and windows, and the scale of furniture pieces when creating furniture layouts. They aim to strike a balance between functionality and aesthetics</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="img-container">
+                    <img src="/artpics/plans 4.jpg" alt="Image 3">
+                    <div class="content">
+                        <h2>Title 3</h2>
+                        <p>The foundation is the structural base that supports the entire building. It is typically made of concrete or reinforced masonry and is designed to transfer the weight of the building to the underlying soil or rock. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    
+        <footer class="footer">
+            <div class="social-media">
+                <a href="http://www.facebok.com "target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="http://www.twitter.com "target="_blank"  class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="http://www.twitter.com"target="_blank"  class="social-icon"><i class="fab fa-instagram"></i></a>
+                <!-- Add more social media links/icons as needed -->
+            </div>
+            <p class="footer-text">&copy; Creative designs & Solutions.All rights reserved</p>
+        </footer>
+        
+        
+</body>
+</html>
+
+</div>
+</body>
+</html>
